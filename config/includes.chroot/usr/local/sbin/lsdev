@@ -1,0 +1,2 @@
+#!/bin/bash
+fdisk -l | grep '^Disk' | awk -e '{ printf("%s %s %s\n",$2,$3,$4); }' | sed 's/,//g'

@@ -1,0 +1,4 @@
+#!/bin/bash
+dirfile=$HOME/dir.txt
+ls -Fc1A $1 > $dirfile
+vi $dirfile

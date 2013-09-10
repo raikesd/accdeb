@@ -1,0 +1,4 @@
+#!/bin/sh
+manfile=$HOME/$1.txt
+man $1 > $manfile
+vi $manfile
